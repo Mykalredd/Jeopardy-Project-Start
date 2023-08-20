@@ -1,0 +1,113 @@
+/*
+  You don't need to touch this file to complete the assignment!
+  Unless you want to add styles and make it look more beautiful.
+*/
+
+/*
+  Some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c
+*/
+
+.disabled
+{
+  display: none;
+}
+
+.viewed
+{
+  text-decoration: line-through;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin-top: 20px;
+  color: red;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #060ce9;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #28a200;
+}
+
+section {
+  margin-top: 20px;
+}
+
+table {
+  margin: auto;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+  width: 80%;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #8d2ab5;
+  color: white;
+}
+
+.clue {
+  background-color: #74119c;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.clue:hover {
+  background-color: #28a200;
+}
+
+#active-clue {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #000;
+  font-size: 18px;
+}
+
+.clue-value {
+  background-color: #060ce9;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.clue-value:hover {
+  background-color: #28a200;
+}
+
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  width: calc(80% / (NUMBER_OF_CATEGORIES + 1));
+}
+
